@@ -124,8 +124,8 @@ table.code tbody *, pre {
 /* standard buttons, please */
 input[type="button"], input[type="submit"], input[type="reset"],
 input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
-    background: auto;
-    border: auto;
+    background: inherit;
+    border: inherit;
 }
 
 #content.ticket { width: 100%; }
