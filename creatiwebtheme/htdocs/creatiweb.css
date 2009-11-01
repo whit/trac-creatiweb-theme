@@ -1,0 +1,124 @@
+/* helpers */
+.cb { clear: both; }
+
+body {
+    font: normal normal 85%/130% Tahoma, Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+h1,h2,h3,h4 { font-family: "Trebuchet MS", sans-serif; font-weight: normal; }
+
+a, a:link, a:visited { color: #e37718; border: none; text-decoration: underline; }
+
+#header {
+    background: #fff url(bg-hdr.png) 0 100% repeat-x;
+    border-bottom: 4px solid #e37718;
+    margin: 0;
+    padding: 6px;
+    height: 50px;
+}
+#header h1 { font-weight: bold; font-size: 160%; margin: 16px 0 0 10px; float: left; }
+#logo {
+    width: 300px;
+    height: 100px;
+    background: transparent url(logo_cw.png) 0 0 no-repeat;
+}
+
+#header ul {
+    float: right;
+    font-size: 80%;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#header li {
+    display: inline;
+    padding: 0 6px 0 6px;
+    white-space: nowrap;
+}
+
+#MenuBar {
+    height: 32px;
+    margin: 0;
+    padding: 0px 6px 0 6px;
+    font-weight: bold;
+    background: #fff9e9 url(bg-mainnav.png) 0 -3px repeat-x;
+}
+#MenuBar ul { float: right; }
+
+#MenuBar a { text-decoration: none; display: block; padding: 3px 5px; }
+
+#MenuBar li {
+    background: #fff1c8;
+    color: #fff;
+    float: left;
+    margin: 0 2px;
+    border: 1px solid #e37718;
+    border-top: none;
+}
+
+#MenuBar ul, #SubMenuBar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+#SubMenuBar li {
+    display: inline;
+    padding: 0 5px;
+}
+
+#MenuBar .active a, #MenuBar a:hover {
+    background: #e37718;
+    color: #fff;
+}
+
+#SubMenuBar {
+    position: absolute;
+    right: 8px;
+    top: 96px;
+    border: 1px dotted #e37718;
+    background: #d2ebf8;
+    font-size: 90%;
+    padding: 3px;
+    text-align: right;
+    width: 400px;
+}
+
+#Container {
+    overflow: hidden;
+    padding: 12px;
+    background: #fff9e9;
+}
+
+#footer {
+    background: #fff url(bg-ftr.png) 0 100% repeat-x;
+    border-top: 2px solid #e37718;
+    font-size: 90%;
+    padding: 10px;
+    margin-top: 1em 0 0 0;
+    height: 50px;
+    color: #666;
+}
+#footer a, #footer a:link, #footer a:visited { color: #000; }
+#footer .cwfoot { float: left; width: 500px; }
+#footer .cwfoot img { float: left; margin-right: 20px; }
+
+h1 { font-size: 145%; }
+
+h2 {
+    font-size: 135%;
+    border: #999 solid 0 0 1px 0;
+    margin-top: 24px;
+}
+
+h3 { }
+
+@media print {
+    .noprint {
+        display: none;
+    }
+}
