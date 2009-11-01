@@ -93,9 +93,9 @@ a:link, a:visited { color: #e37718; border: none; text-decoration: underline; }
 #footer {
     background: #fff url(bg-ftr.png) 0 100% repeat-x;
     border-top: 2px solid #e37718;
-    font-size: 90%;
-    padding: 10px;
-    margin-top: 1em 0 0 0;
+    font-size: 85%;
+    padding: 5px 10px 10px 10px;
+    margin-top: 1em;
     height: 50px;
     color: #666;
 }
@@ -120,4 +120,12 @@ table.code tbody *, pre {
     font-family: Consolas, Monaco, monospace;
     font-size: 14px;
 }
+
+/* standard buttons, please */
+input[type="button"], input[type="submit"], input[type="reset"],
+input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
+    background: auto;
+    border: auto;
+}
+
 #content.ticket { width: 100%; }
