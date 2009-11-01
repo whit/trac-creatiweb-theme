@@ -8,9 +8,10 @@ body {
 
 h1,h2,h3,h4 { font-family: "Trebuchet MS", sans-serif; font-weight: normal; }
 h1 { font-size: 145%; }
-h2 { font-size: 135%; border-bottom: #999 solid 1px; margin-top: 24px; }
+h2 { font-size: 135%; margin-top: 24px; }
+h3 { font-size: 125%; }
 
-a, a:link, a:visited { color: #e37718; border: none; text-decoration: underline; }
+a:link, a:visited { color: #e37718; border: none; text-decoration: underline; }
 
 #header {
     background: #fff url(bg-hdr.png) 0 100% repeat-x;
@@ -86,7 +87,7 @@ a, a:link, a:visited { color: #e37718; border: none; text-decoration: underline;
 #Container {
     overflow: hidden;
     padding: 12px;
-    background: #fff9e9;
+    background: #fffcec;
 }
 
 #footer {
@@ -102,12 +103,18 @@ a, a:link, a:visited { color: #e37718; border: none; text-decoration: underline;
 #footer .cwfoot { float: left; width: 500px; }
 #footer .cwfoot img { float: left; margin-right: 20px; }
 
+#ticket, .wiki-toc, #attachments, #changelog, fieldset {
+    -moz-border-radius: 7px; -webkit-border-radius: 7px;
+}
 .wiki-toc {
     background: #fff1c8;
     border: 1px solid #e37718;
 }
 
-#ticket { background: #fff1c8; }
+#ticket { background: #fff1c8; border: 1px solid #e37718; }
+#attachments, #changelog, fieldset { border: 1px solid #ccc; }
+legend { font-size: 110% }
+#ticket .date { font-size: 80%; text-align: right; line-height: 1.1; }
 
 table.code tbody *, pre {
     font-family: Consolas, Monaco, monospace;
