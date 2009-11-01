@@ -5,7 +5,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml"
       xmlns:py="http://genshi.edgewall.org/"
       py:strip="">
-  
+
   <head py:match="head" py:attrs="select('@*')">
     ${select('*')}
   </head>
@@ -19,18 +19,18 @@
           ${item.label}
         </li>
       </ul>
-      <form id="search" action="${href.search()}" method="get">                                                 
-        <div py:if="'SEARCH_VIEW' in perm">                                                                     
-          <label for="proj-search">Search:</label>                                                              
-          <input type="text" id="proj-search" name="q" size="18" accesskey="f" value="" />                      
-          <input type="submit" value="Search" />                                                                
-        </div>                                                                                                  
-      </form>                                                                                                   
+      <form id="search" action="${href.search()}" method="get">
+        <div py:if="'SEARCH_VIEW' in perm">
+          <label for="proj-search">Search:</label>
+          <input type="text" id="proj-search" name="q" size="20" accesskey="f" value="" />
+          <input type="submit" value="Search" />
+        </div>
+      </form>
       </div>
-								
-      <h1><a href="${chrome.logo.link}">${project.name}</a></h1>                              
+
+      <h1><a href="${chrome.logo.link}">${project.name}</a></h1>
     </div>
-    
+
     <div id="MenuBar" class="noprint">
       <div id="MenuBarHighlight">
       <ul>
@@ -50,7 +50,7 @@
     </py:if>
 
     <div id="MenuBarShadow" class="noprint"></div>
-      
+
     <div id="Container">
       ${select('*')}
     </div>
@@ -59,7 +59,7 @@
       <div class="cwfoot">
         <a href="http://creatiweb.cz/"><img src="http://cw.img0.cz/img/logo_cw.png" alt="creatiWeb.cz logo" /></a>
         &copy; 2009 Vítek Pliska &ndash; <a href="http://creatiweb.cz/">creatiWeb.cz</a>, <a href="mailto:support@creatiweb.cz">support@creatiweb.cz</a><br/>
-	Python/Django, Perl and Php hosting, Web development, SEO and other services.
+    Python/Django, Perl and Php hosting, Web development, SEO and other services.
       </div>
       <p class="right">
         Powered by <a href="${href.about()}"><strong>Trac ${trac.version}</strong></a>
@@ -68,4 +68,4 @@
     </div>
   </body>
 </html>
-      
+

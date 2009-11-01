@@ -115,7 +115,17 @@ h2 {
     margin-top: 24px;
 }
 
-h3 { }
+.wiki-toc {
+    background: #fff1c8;
+    border: 1px solid #e37718;
+}
+
+#ticket { background: #fff1c8; }
+
+table.code tbody * {
+    font-family: Consolas, Monaco, monospace;
+    font-size: 14px;
+}
 
 @media print {
     .noprint {

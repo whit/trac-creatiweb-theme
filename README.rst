@@ -7,7 +7,7 @@ Requirements:
 -------------
 
   * TRAC_ (tested on 0.11.5)
-  * TracThemeEngine_
+  * TracThemeEngine_ (>=2.0)
 
 Installation:
 -------------

@@ -4,7 +4,7 @@ from setuptools import setup
 
 setup(
     name = 'CreatiWebTheme',
-    version = '1.0.7',
+    version = '1.0.8',
     packages = [ 'creatiwebtheme' ],
     package_data = { 'creatiwebtheme': [ 'htdocs/*.css', 'htdocs/*.png', 'htdocs/*.gif', 'templates/*.html' ] },
     author = 'Vitek Pliska',
