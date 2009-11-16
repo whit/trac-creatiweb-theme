@@ -95,7 +95,6 @@ a:link, a:visited { color: #e37718; border: none; text-decoration: underline; }
     border-top: 2px solid #e37718;
     font-size: 85%;
     padding: 5px 10px 10px 10px;
-    margin-top: 1em;
     height: 50px;
     color: #666;
 }
@@ -119,33 +118,6 @@ legend { font-size: 110% }
 table.code tbody *, pre {
     font-family: Consolas, Monaco, monospace;
     font-size: 14px;
-}
-
-/* standard buttons, please */
-button, input[type="reset"], input[type="button"], input[type="submit"],
-input[type="button"]:hover, input[type="submit"]:hover, input[type="reset"]:hover {
- {
-    -moz-appearance:button;
-    -moz-binding:none;
-    -moz-box-sizing:border-box;
-    -moz-user-select:none;
-    -x-system-font:-moz-button;
-    background-color:buttonface;
-    border:2px outset buttonface;
-    color:buttontext;
-    cursor:default;
-    font-family:-moz-use-system-font;
-    font-size:-moz-use-system-font;
-    font-size-adjust:-moz-use-system-font;
-    font-stretch:-moz-use-system-font;
-    font-style:-moz-use-system-font;
-    font-variant:-moz-use-system-font;
-    font-weight:-moz-use-system-font;
-    line-height:normal !important;
-    padding:0 6px;
-    text-align:center;
-    text-shadow:none;
-    white-space:pre;
 }
 
 #content.ticket { width: 100%; }
