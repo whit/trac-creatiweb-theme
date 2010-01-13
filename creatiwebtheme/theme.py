@@ -5,5 +5,5 @@ from trac.core import *
 from themeengine.api import ThemeBase
 
 class CreatiWebTheme(ThemeBase):
-    """A theme for Trac based on http://creatiweb.cz"""
+    """A theme for TRAC instances on http://trac.creatiweb.cz"""
     template = htdocs = css = True
